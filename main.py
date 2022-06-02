@@ -1,2 +1,6 @@
+from shutil import unregister_archive_format
+from codigofacilito_ver.workshops import unreleased
+
 if __name__ == '__main__':
-    print(' Probando')
+    workshops = unreleased()
+    print(workshops)
